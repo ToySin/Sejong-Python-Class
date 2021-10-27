@@ -1,12 +1,13 @@
-n = int(input())
-m = int(input())
+def multiply(n1, n2):
+	return n1 * n2
 
-for i in range(1, n + 1):
-	for j in range(1, n + 1):
-		if i == m:
-			print("*", end="")
-		elif j == m:
-			print("*", end="")
-		else:
-			print(" ", end="")
-	print()
+
+def divide(n1, n2):
+	return n1 / n2
+
+
+n1 = int(input())
+n2 = int(input())
+
+print(multiply(n1, n2))
+print(divide(n1, n2))

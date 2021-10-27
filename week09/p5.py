@@ -1,5 +1,5 @@
 def isEven(n):
-	return not(n % 2)
+	return n % 2 == 0
 
 
 def countEvenNums(n):

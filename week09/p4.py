@@ -22,7 +22,7 @@ def get_gcd_normal2(n1, n2): # n1 > n2
 n1 = int(input())
 n2 = int(input())
 
-if n1 < n2:
+if n1 < n2:		# n1 > n2
 	n1, n2 = n2, n1
 
 print(get_gcd_normal2(n1, n2))
